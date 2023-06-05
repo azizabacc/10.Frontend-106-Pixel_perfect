@@ -1,7 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 .mobile-container {
+  font-family: "Roboto", sans-serif;
   max-width: 220px;
   margin: auto;
-  background-color: #555;
   padding: 20px;
   padding-top: 0;
 }
@@ -10,6 +11,7 @@
   justify-content: space-between;
   align-items: center;
   height: 60px;
+  font-weight: 500;
 }
 .mobile-container .header-menu .lang-menu {
   display: flex;
@@ -30,7 +32,65 @@
   width: 75px;
 }
 .mobile-container .header-menu .close-menu .close-symb {
-  font-size: 38px;
+  font-size: 30px;
+  margin-top: 24px;
+}
+.mobile-container .menu {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+.mobile-container .menu .option {
+  border-top: #e6ebeb solid 1px;
+  height: 55px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.mobile-container .menu .option.betaoption {
+  background-color: #90D8D0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mobile-container .menu .option.betaoption .beta {
+  padding: 3px;
+  border-radius: 4px;
+  color: white;
+  margin-right: 93px;
+  background-color: #00B0A0;
+}
+.mobile-container .menu .option.not {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mobile-container .menu .option.not .effecYellow {
+  display: flex;
+  text-align: center;
+  background-color: #fef8bc;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.mobile-container .menu .option.not .effecblue {
+  display: flex;
+  text-align: center;
+  background-color: #90D8D0;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.mobile-container .menu .option.conf-cancelled {
+  height: auto;
+}
+.mobile-container .menu .option.conf-cancelled .conferences p {
+  color: #a6adad;
 }
 
 /*# sourceMappingURL=style.css.map */
