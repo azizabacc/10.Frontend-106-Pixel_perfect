@@ -1,0 +1,36 @@
+.mobile-container {
+  max-width: 220px;
+  margin: auto;
+  background-color: #555;
+  padding: 20px;
+  padding-top: 0;
+}
+.mobile-container .header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+.mobile-container .header-menu .lang-menu {
+  display: flex;
+  width: 75px;
+  justify-content: space-between;
+  align-items: center;
+}
+.mobile-container .header-menu .lang-menu .lang {
+  text-decoration: underline;
+}
+.mobile-container .header-menu .lang-menu .flag {
+  height: 20px;
+}
+.mobile-container .header-menu .close-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75px;
+}
+.mobile-container .header-menu .close-menu .close-symb {
+  font-size: 38px;
+}
+
+/*# sourceMappingURL=style.css.map */

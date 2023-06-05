@@ -1,0 +1,44 @@
+.mobile-container{
+    max-width: 220px;
+    margin: auto;
+    background-color: #555;
+    padding: 20px;
+    padding-top: 0;
+
+    .header-menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        .lang-menu{
+            display: flex;
+            width: 75px;
+            justify-content: space-between;
+            align-items: center;
+        
+            .lang{
+                text-decoration: underline;
+            }
+            .flag{
+             
+                height: 20px;
+            }
+
+        }
+        .close-menu{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        
+            width: 75px;
+            .close-text{
+
+            }
+            .close-symb{
+                font-size: 38px;                
+            }
+            
+        }
+    }
+   
+}
