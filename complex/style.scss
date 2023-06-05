@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.mobile-container{
+    font-family: 'Roboto', sans-serif;
+    max-width: 220px;
+    margin: auto;
+
+    padding: 20px;
+    padding-top: 0;
+
+    .header-menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        font-weight: 500;
+        .lang-menu{
+            display: flex;
+            width: 75px;
+            justify-content: space-between;
+            align-items: center;
+        
+            .lang{
+                text-decoration: underline;
+            }
+            .flag{
+             
+                height: 20px;
+            }
+
+        }
+        .close-menu{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        
+            width: 75px;
+            .close-text{
+
+            }
+            .close-symb{
+                font-size: 30px; 
+                margin-top: 24px;              
+            }
+            
+        }
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        font-weight: bold;
+        .option{
+            border-top: #e6ebeb solid 1px;
+            height: 55px;
+            padding-left: 10px;
+            padding-right: 10px;
+            &.betaoption{
+                background-color: #90D8D0;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .beta{
+                    padding: 3px;
+                    border-radius: 4px;
+                    color: white;
+                    margin-right: 93px;
+                    background-color: #00B0A0;
+                }
+            }
+            &.not{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .effecYellow{
+                    display: flex;
+                    text-align: center;
+                    background-color: #fef8bc;
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 15px;
+                    align-items: center;
+                    flex-direction: row;
+                    justify-content: space-around;
+                }
+                
+                .effecblue{
+                    display: flex;
+                    text-align: center;
+                    background-color: #90D8D0;
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 15px;
+                    align-items: center;
+                    flex-direction: row;
+                    justify-content: space-around;
+                }
+            }
+            &.conf-cancelled{
+                height: auto;
+                .conferences{
+                    p{
+                        color: #a6adad;
+                    }
+                }
+            }
+            
+  
+        }
+    }
+   
+}

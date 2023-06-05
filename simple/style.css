@@ -1,0 +1,23 @@
+body {
+  text-align: center;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+}
+body .title {
+  font-size: 24px;
+  color: #578388;
+  border-bottom: solid rgb(235, 234, 234) 1px;
+}
+body .ligne {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .ligne .name {
+  color: #578388;
+  font-size: 25px;
+  font-family: "TT Drugs Trial", sans-serif;
+  font-weight: bolder;
+}
+
+/*# sourceMappingURL=style.css.map */
