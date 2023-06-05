@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin :0;
+}
+.card{
+    width: 694px;
+    height: 260px;
+    display: flex;
+    border-radius: 5px;
+    border: solid 2px black;
+    .left{
+        display: flex;
+        .design{
+            color: #686868;
+            font-size: 20px
+
+        }
+        .discover{
+            font-size: 30px
+
+        }
+
+    }
+    .right{
+img{
+    width: 200px;
+    height: auto;
+
+}
+    }
+
+}
