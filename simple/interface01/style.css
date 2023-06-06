@@ -1,34 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap");
 * {
   padding: 0;
   margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .card {
-  width: 694px;
-  height: 260px;
+  width: 640px;
+  height: 220px;
   display: flex;
-  border-radius: 5px;
+  border-radius: 20px;
   border: solid 2px black;
-  justify-content: space-evenly;
-  align-items: center;
 }
 .card .left {
   display: flex;
   flex-direction: column;
-  height: 117px;
   justify-content: space-around;
-  align-items: flex-start;
+  padding: 41px;
 }
 .card .left .design {
   color: #686868;
   font-size: 20px;
+  font-weight: 900;
 }
 .card .left .discover {
   font-size: 30px;
+  font-weight: bold;
+}
+.card .right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
 }
 .card .right img {
   width: 200px;
   height: auto;
+  padding: 31px;
 }
 
 /*# sourceMappingURL=style.css.map */
